@@ -1,6 +1,3 @@
-/**
- * 
- */
 package br.com.java.brasil;
 
 import br.com.caelum.stella.format.CNPJFormatter;
