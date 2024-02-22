@@ -1,6 +1,5 @@
 package br.com.java.brasil;
 
-import br.com.caelum.stella.format.Formatter;
 import br.com.caelum.stella.validation.CNPJValidator;
 import br.com.caelum.stella.validation.CPFValidator;
 import br.com.caelum.stella.validation.InvalidStateException;
