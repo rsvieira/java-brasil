@@ -12,9 +12,7 @@ import org.javamoney.moneta.Money;
 import org.javamoney.moneta.convert.ExchangeRateType;
 import org.javamoney.moneta.function.MonetaryOperators;
 
-import br.com.caelum.stella.inwords.FormatoDeInteiro;
 import br.com.caelum.stella.inwords.FormatoDeReal;
-import br.com.caelum.stella.inwords.InteiroSemFormato;
 import br.com.caelum.stella.inwords.NumericToWordsConverter;
 
 /**
