@@ -12,12 +12,12 @@ import com.github.gilbertotorrezan.viacep.shared.ViaCEPEndereco;
  */
 
 public class Cep {
-	
+
 	public static void main(String[] args) {
 		ViaCEPClient cliente = new ViaCEPClient();
 		try {
 			ViaCEPEndereco endereco = cliente.getEndereco("41150000");
-			
+
 			System.out.println(endereco.getCep());
 			System.out.println(endereco.getLogradouro());
 			System.out.println(endereco.getComplemento());
@@ -25,6 +25,7 @@ public class Cep {
 			System.out.println(endereco.getLocalidade());
 			System.out.println(endereco.getUf());
 			System.out.println(endereco.getIbge());
+
 		} catch (IOException e) {
 			e.printStackTrace();
 		}
