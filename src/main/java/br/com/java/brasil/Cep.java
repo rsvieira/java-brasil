@@ -15,6 +15,7 @@ public class Cep {
 
 	public static void main(String[] args) {
 		ViaCEPClient cliente = new ViaCEPClient();
+
 		try {
 			ViaCEPEndereco endereco = cliente.getEndereco("41150000");
 
